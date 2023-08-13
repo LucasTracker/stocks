@@ -15,7 +15,7 @@ export class StocksService {
 
   // Declares a stock array and API variables
   private stocks: Array<string> = ['AAPL','GOOG','FB','AMZN','TWTR'];
-  private service: string = 'http://localhost:3000';
+  private service: string = 'https://api-socks.onrender.com';
 
   // Constructor method to inject HttpClient service into class http property
   constructor(private http: HttpClient) { }
